@@ -7,6 +7,7 @@ const morgan = require('morgan');
 const port = process.env.PORT || 5000;
 // khởi tạo express
 const app = express();
+// thêm để push
 // kết nối tới mongoDB
 
 // Middleware

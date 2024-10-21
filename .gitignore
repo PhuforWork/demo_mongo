@@ -9,9 +9,6 @@ node_modules/
 dist/
 build/
 
-# Các file TypeScript biên dịch
-*.js
-*.d.ts
 
 # Các file cấu hình cá nhân
 .env
