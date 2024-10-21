@@ -1,4 +1,4 @@
-import express, { Request, Response } from 'express';
+const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const morgan = require('morgan');
@@ -15,10 +15,8 @@ app.use(morgan('dev')); // Hiển thị log chi tiết request
 app.use(express.json()); // Parse JSON trong body request
 app.use(express.urlencoded({ extended: true })); // Parse form-urlencoded data
 
-// Route chính
-app.get('/', (req: Request, res: Response) => {
-    res.send('Hello, World!');
-});
+
+
 
 //lắng nghe tại cổng được chỉ định
 app.listen(port, () => {

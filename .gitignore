@@ -1,0 +1,23 @@
+# Thư mục node_modules
+node_modules/
+
+# Các file tạm thời
+*.log
+*.tmp
+
+# Thư mục build hoặc dist (nếu có)
+dist/
+build/
+
+# Các file TypeScript biên dịch
+*.js
+*.d.ts
+
+# Các file cấu hình cá nhân
+.env
+
+# Thư mục và file IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
