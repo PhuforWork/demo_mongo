@@ -4,7 +4,7 @@ const cors = require('cors');
 const morgan = require('morgan');
 
 // khởi tạo port
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3333;
 // khởi tạo express
 const app = express();
 // kết nối tới mongoDB
