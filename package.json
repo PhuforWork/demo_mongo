@@ -1,6 +1,8 @@
 {
   "name": "my-mongo-project",
   "version": "1.0.0",
+  "description": "A mini project for MongoDB",
   "main": "index.js",
+  "author": "PhuDev",
   "license": "MIT"
 }
